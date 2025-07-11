@@ -42,7 +42,7 @@
 
 header {
   margin-top: 0px;
-  height: 700px;
+  /* height: 700px; */
   background-image: url("../assets/hero-bg.png");
   background-position: top center;
   background-repeat: no-repeat;
@@ -76,8 +76,38 @@ section h2 {
   font-weight: bolder;
 }
 
-/* Section style*/
+main {
+  margin: 0 auto;
+  width: 1440px;
+  background-color: #f5f8ff;
+}
 
-body {
-  /* background: black; */
+.action {
+  width: 1140px;
+  margin: 0 150px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+  /* margin: 0px 150px; */
+}
+
+.action h3 {
+  font-family: raleway;
+  font-size: 48px;
+  font-weight: bold;
+  color: #252432;
+}
+
+.action p {
+  font-family: raleway;
+  font-size: 25px;
+  color: rgba(28, 24, 91, 0.5);
+  padding: 25px 0px;
+}
+
+.action img {
+  border: none;
+  border-radius: 50px;
 }
