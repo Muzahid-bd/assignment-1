@@ -244,3 +244,39 @@ main {
   border: none;
   border-radius: 48px;
 }
+footer {
+  width: 530px;
+  margin: 104px auto;
+  text-align: center;
+}
+footer h1 {
+  font-family: Inter;
+  font-size: 100px;
+  font-weight: 900;
+  color: #4e47ff;
+  margin: 0px auto 20px;
+  text-align: center;
+}
+footer p {
+  font-family: Inter;
+  font-size: 16px;
+  color: #8987a1;
+  margin: 8px auto 20px;
+  text-align: center;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline;
+  gap: 100px;
+}
+footer ul li a {
+  font-family: Inter;
+  font-size: 16px;
+  padding: 0px 25px;
+  text-decoration: none;
+  color: #8987a1;
+  margin: 8px auto 20px;
+  text-align: center;
+  justify-content: space-around;
+}
