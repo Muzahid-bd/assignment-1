@@ -111,3 +111,39 @@ main {
   border: none;
   border-radius: 50px;
 }
+
+.productive-users {
+  width: 1140px;
+  margin: 150px auto;
+  border: none;
+  border-radius: 24px;
+  background-color: rgba(78, 71, 255, 0.1);
+}
+.productive-users h4 {
+  font-family: raleway;
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  padding: 50px 0 40px;
+  text-align: center;
+}
+.stat-set {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.statistics {
+  text-align: center;
+}
+.statistics h1 {
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+.statistics p {
+  font-family: Inter;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
