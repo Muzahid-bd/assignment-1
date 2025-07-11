@@ -1,3 +1,83 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* common style */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.color-primary {
+  color: #4e47ff;
+}
+
+.button {
+  font-family: raleway;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 36px;
+  background-color: #4e47ff;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: yellow;
+  color: #252432;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+/* Header style */
+
+header {
+  margin-top: 0px;
+  height: 700px;
+  background-image: url("../assets/hero-bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+/* Nav style */
+nav {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 50px 0px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 160px;
+}
+section {
+  text-align: center;
+  padding-bottom: 150px;
+}
+section h2 {
+  font-family: raleway;
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  padding-bottom: 37px;
+}
+
+.logo {
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+/* Section style*/
+
 body {
-  background: black;
+  /* background: black; */
 }
