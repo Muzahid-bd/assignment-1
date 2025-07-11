@@ -215,3 +215,32 @@ main {
   font-size: 16px;
   color: #b3b3b3;
 }
+.focus {
+  width: 1140px;
+  margin: 140px auto 100px;
+  border: none;
+  border-radius: 14px;
+  text-align: center;
+  background-color: white;
+}
+
+.focus h2 {
+  font-family: raleway;
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  margin: 0px auto 20px;
+  text-align: center;
+}
+.focus p {
+  font-family: Inter;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px auto 20px;
+  text-align: center;
+}
+.focus img {
+  margin: 20px auto 71px;
+  border: none;
+  border-radius: 48px;
+}
